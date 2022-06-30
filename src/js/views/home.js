@@ -4,26 +4,31 @@ import "../../styles/home.css";
 
 export const Home = () => (
 	<>
-	<div className="top">
-		<h1>Login your account</h1>
+	<div className="top m-auto">
+		<div className="bridge">
+		<h1 className="login">Login your account</h1>
 		<div>
-			<h2>E-mail</h2>
-			<input type="text" placeholder="your E-mail">
+			<div>E-mail</div>
+			<input className="m-2 rounded-pill " type="text" placeholder=" Your E-mail">
 			</input>
 		</div>
 
 		<div>
-			<h2>Password</h2>
-			<input type="text" placeholder="password">
+			<div>Password</div>
+			<input className="m-2 rounded-pill" type="text" image placeholder=" Your password ">
 			</input>
 		</div>
-
-		<div>Register</div>
+		</div>
+		<div className="drop">
+		<div className="regis">Register</div>
+		<div className="sign">Sign In</div>
+		</div> 
 		<div className="middle">
-			<div>remember me</div>
-			<div>forgot password</div>
+			<div>Remember me</div>
+			<div>Forgot password</div>
 		</div>
 	</div>
+	
 		
 
 		<script src="https://kit.fontawesome.com/cd172e63fa.js" crossorigin="anonymous"></script>
