@@ -24,8 +24,11 @@ export const Home = () => (
 		<div className="sign">Sign In</div>
 		</div> 
 		<div className="middle">
+			<div className="remember">
+			<div className="box"></div>
 			<div>Remember me</div>
-			<div>Forgot password</div>
+			</div>
+			<div>Forgot password?</div>
 		</div>
 	</div>
 	
