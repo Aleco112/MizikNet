@@ -3,9 +3,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 350px;
-    height: 350px;
+    width: 600px;
+    height: 600px;
     margin-top: 200px;
+    border: 1px solid black;
     
     
     
