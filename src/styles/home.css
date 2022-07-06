@@ -1,12 +1,11 @@
 .top{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    width: 600px;
-    height: 600px;
-    margin-top: 200px;
-    border: 1px solid black;
+    width: 500px;
+    height: 650px;
+    border: 1px solid  rgba(240, 235, 235, 0.907);
+    
     
     
     
@@ -26,7 +25,6 @@
 }
 
 .top{
-    margin: 20px;
     font-style: italic;
 }
 
@@ -75,7 +73,7 @@ input{
     height: 40px;
 }
 .box{
-    border: 1px solid black;
+    border: 1px solid  rgba(240, 235, 235, 0.907);
     width: 18px;
     height: 18px;
     margin: 5px;
@@ -85,3 +83,42 @@ input{
     align-items: center;
     justify-content: flex-start;
 }
+.music{
+    border: 1px solid rgba(240, 235, 235, 0.907);
+    height: 650px;
+    width: 500px;
+}
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+.mizik{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 454px;
+    height: 107px;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login{
+    margin-top: 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 40px;
+
+}
+
