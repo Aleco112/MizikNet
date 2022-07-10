@@ -9,6 +9,7 @@
     
     
     
+    
 }
 
 .middle{
@@ -33,6 +34,7 @@
     justify-content: flex-start;
     flex-direction: column; 
     padding: 2px;
+    margin-top: 120px;
 }
 
 .regis{
@@ -87,6 +89,7 @@ input{
     border: 1px solid rgba(240, 235, 235, 0.907);
     height: 650px;
     width: 500px;
+    background-image: url("https://usicians.s3.amazonaws.com/background_img.png");
 }
 main{
     display:flex;
@@ -102,6 +105,7 @@ main{
     justify-content: center;
     width: 454px;
     height: 107px;
+    margin:120px;
 }
 p{
     display: flex;
@@ -111,14 +115,29 @@ p{
 }
 
 .login{
-    margin-top: 5px;
+    margin-top: 20px;
 }
 .logo{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 350px;
-    height: 40px;
-
+    justify-content: space-evenly;
+    background-repeat: no-repeat,repeat;
+    
+   
 }
 
+.apple{
+    width: 160px;
+    height: 40px;
+}
+.android{
+  width: 140px;
+  height: 70px;  
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}

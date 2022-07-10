@@ -42,14 +42,16 @@ export const Home = () => (
 		
 		<h1 className="mizik"> Miziknet</h1>
 		<p> The app for music lovers</p>
+		<div className="app">
 		<p>Get the app</p>
 		<div  className="logo">
 			<div>
-				<img className="blue" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2a7qwMKNWIfBw93jECC6ltygSCHcSOIQ0jw:https://data.ibtimes.sg/en/full/12247/google-play-store-8-1-73-apk.png&usqp=CAU"></img>
+				<img className="android" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2a7qwMKNWIfBw93jECC6ltygSCHcSOIQ0jw:https://data.ibtimes.sg/en/full/12247/google-play-store-8-1-73-apk.png&usqp=CAU"></img>
 			</div>
 			<div>
-			<img className="blue" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dbqmTtwP_rrhP1hSmblWbMXFQbQDr993_-WofMG1l0b8yALnnKiSwWvRGrXZjnOT0g:https://thumbs.dreamstime.com/b/available-app-store-140090958.jpg&usqp=CAU"></img>
+			<img className="apple" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dbqmTtwP_rrhP1hSmblWbMXFQbQDr993_-WofMG1l0b8yALnnKiSwWvRGrXZjnOT0g:https://thumbs.dreamstime.com/b/available-app-store-140090958.jpg&usqp=CAU"></img>
 			</div>
+		</div>
 		</div>
 
 
