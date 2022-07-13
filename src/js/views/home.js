@@ -16,7 +16,7 @@ export const Home = () => (
 
 		<div>
 			<div>Password</div>
-			<input className="m-2 rounded-pill" type="text" image placeholder=" Your password ">
+			<input className="m-2 rounded-pill" type="text," image placeholder=" Your password ">
 			</input>
 		</div>
 		</div>
@@ -40,7 +40,7 @@ export const Home = () => (
 	</div>
 	<section className="music">
 		
-		<h1 className="mizik"> Miziknet</h1>
+		<img className="musiknet" src="https://www.miziknet.com/assets/img/mn_logo.png?h=4cb6ba35b284d5710e8a2a2f5a850cc1"></img>
 		<p> The app for music lovers</p>
 		<div className="app">
 		<p>Get the app</p>
