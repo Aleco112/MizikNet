@@ -69,10 +69,13 @@
     margin: 10px;
     
 }
-   
+.fontAwesome {
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+  }  
 input{
     width: 350px;
     height: 40px;
+    font-family:'fontAwesome';
 }
 .box{
     border: 1px solid  rgba(240, 235, 235, 0.907);
@@ -151,3 +154,24 @@ p{
     justify-content: center;
     margin-top: 40px;
 }
+input[type=text] { 
+    width: 100%; 
+    padding: 12px 40px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+} 
+  
+
+.fontuser {
+    position: relative;
+}
+  
+.fontuser i{
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    color: gray;
+}
+  

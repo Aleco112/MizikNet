@@ -2,21 +2,26 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 
-export const Home = () => (
+export const Home = () => {
+	let result = <div><i class='fa-regular fa-amp-guitar'></i></div>
+return(
 	<>
 	<main>
 	<div className="top">
 		<div className="bridge">
 		<h1 className="login">Login your account</h1>
-		<div>
+		<div className="fontuser">
 			<div>E-mail</div>
-			<input className="m-2 rounded-pill " type="text" placeholder=" Your E-mail">
+			<input className="m-2 rounded-pill fontAwesome" type="text" placeholder="Your E-mail">
 			</input>
+			<i class="fa fa-envelope" aria-hidden="true"></i>
 		</div>
-
+		
 		<div>
 			<div>Password</div>
-			<input className="m-2 rounded-pill" type="text," image placeholder=" Your password ">
+			<input className="m-2 rounded-pill" 
+			type="text," 
+			placeholder=" Your password ">
 			</input>
 		</div>
 		</div>
@@ -63,4 +68,4 @@ export const Home = () => (
 
 		<script src="https://kit.fontawesome.com/cd172e63fa.js" crossorigin="anonymous"></script>
 	</>
-);
+)};
