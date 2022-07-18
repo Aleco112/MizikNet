@@ -2,9 +2,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 
-export const Home = () => {
-	let result = <div><i class='fa-regular fa-amp-guitar'></i></div>
-return(
+export const Home = () =>(
 	<>
 	<main>
 	<div className="top">
@@ -21,8 +19,9 @@ return(
 			<div>Password</div>
 			<input className="m-2 rounded-pill" 
 			type="text," 
-			placeholder=" Your password ">
+			placeholder='<img src="https://img.icons8.com/material-outlined/24/000000/password1.png"/>; Your password'>
 			</input>
+			<img src="https://img.icons8.com/material-outlined/24/000000/password1.png"/>
 		</div>
 		</div>
 		<div className="drop">
@@ -68,4 +67,4 @@ return(
 
 		<script src="https://kit.fontawesome.com/cd172e63fa.js" crossorigin="anonymous"></script>
 	</>
-)};
+);
