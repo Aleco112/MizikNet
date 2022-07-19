@@ -76,6 +76,7 @@ input{
     width: 350px;
     height: 40px;
     font-family:'fontAwesome';
+    margin: 10px;
 }
 .box{
     border: 1px solid  rgba(240, 235, 235, 0.907);
@@ -103,7 +104,7 @@ main{
 
 }
 
-.mizik{
+.musik{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,6 +148,7 @@ p{
     flex-direction: column;
     margin-top: 20px;
 }
+	
 .musiknet{
     width: 294px;
     display: flex;
@@ -157,7 +159,7 @@ p{
 input[type=text] { 
     width: 100%; 
     padding: 12px 40px; 
-    margin: 8px 0; 
+    margin: 8px 2px; 
     display: inline-block; 
     border: 1px solid #ccc; 
     box-sizing: border-box; 
@@ -175,3 +177,15 @@ input[type=text] {
     color: gray;
 }
   
+.key{
+    background-image: url("https://img.icons8.com/material-outlined/24/000000/password1.png");
+    position:left;
+    padding-left:30px;
+    background-size: 23px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+
+}
+

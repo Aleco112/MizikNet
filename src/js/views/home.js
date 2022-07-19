@@ -17,11 +17,11 @@ export const Home = () =>(
 		
 		<div>
 			<div>Password</div>
-			<input className="m-2 rounded-pill" 
+			<input className="m-2 rounded-pill key eye" 
 			type="text," 
-			placeholder='<img src="https://img.icons8.com/material-outlined/24/000000/password1.png"/>; Your password'>
+			placeholder=' Your password'>
 			</input>
-			<img src="https://img.icons8.com/material-outlined/24/000000/password1.png"/>
+			
 		</div>
 		</div>
 		<div className="drop">
