@@ -12,7 +12,7 @@ export const Home = () =>(
 			<div>E-mail</div>
 			<input className="m-2 rounded-pill fontAwesome" type="text" placeholder="Your E-mail">
 			</input>
-			<i class="fa fa-envelope" aria-hidden="true"></i>
+			<i className="fa fa-envelope" aria-hidden="true"></i>
 		</div>
 		
 		<div>
@@ -43,9 +43,10 @@ export const Home = () =>(
 	</footer>
 	</div>
 	<section className="music">
-		
+		<div className="theapp">
 		<img className="musiknet" src="https://www.miziknet.com/assets/img/mn_logo.png?h=4cb6ba35b284d5710e8a2a2f5a850cc1"></img>
 		<p> The app for music lovers</p>
+		</div>
 		<div className="app">
 		<p>Get the app</p>
 		<div  className="logo">
@@ -65,6 +66,5 @@ export const Home = () =>(
 
 
 
-		<script src="https://kit.fontawesome.com/cd172e63fa.js" crossorigin="anonymous"></script>
 	</>
 );
