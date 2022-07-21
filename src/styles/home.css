@@ -103,13 +103,10 @@ main{
 
 
 
-.login{
-    margin-top: 20px;
-}
+
 .logo{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     mix-blend-mode: multiply;
     
    
@@ -160,9 +157,9 @@ input[type=text] {
     display:flex;
     align-items: center;
     justify-content: center;
-        width: 333px;
+     width: 333px;
     height: 107px;
-    size: 130px;
+    
 }
 .music{
     display: flex;
@@ -171,13 +168,13 @@ input[type=text] {
     flex-direction: column;
 }
 
-.theapp{
+.above{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.app{
+.appo{
     display: flex;
     align-items: center;
     justify-content: center;

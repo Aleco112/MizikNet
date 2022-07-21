@@ -4,7 +4,7 @@ import "../../styles/home.css";
 
 export const Home = () =>(
 	<>
-	<main>
+	<main className="container-fluid">
 	<div className="top">
 		<div className="bridge">
 		<h1 className="login">Login your account</h1>
@@ -23,7 +23,7 @@ export const Home = () =>(
 			</input>
 			
 		</div>
-		</div>
+		
 		<div className="drop">
 		<div className="regis">Register</div>
 		<div className="sign">Sign In</div>
@@ -35,6 +35,7 @@ export const Home = () =>(
 			</div>
 			<div>Forgot password?</div>
 		</div>
+		</div>
 		
 			<footer className="footer mt-auto py-3 text-center">
 		<p>
@@ -43,11 +44,11 @@ export const Home = () =>(
 	</footer>
 	</div>
 	<section className="music">
-		<div className="theapp">
+		<div className="above">
 		<img className="musiknet" src="https://www.miziknet.com/assets/img/mn_logo.png?h=4cb6ba35b284d5710e8a2a2f5a850cc1"></img>
 		<p> The app for music lovers</p>
 		</div>
-		<div className="app">
+		<div className="appo">
 		<p>Get the app</p>
 		<div  className="logo">
 			<div>
