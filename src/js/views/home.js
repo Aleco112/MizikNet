@@ -4,7 +4,7 @@ import "../../styles/home.css";
 
 export const Home = () =>(
 	<>
-	<main className="container-fluid">
+	<main>
 	<div className="top">
 		<div className="bridge">
 		<h1 className="login">Login your account</h1>
@@ -12,8 +12,8 @@ export const Home = () =>(
 			<div>E-mail</div>
 			<input className="m-2 rounded-pill fontAwesome" type="text" placeholder="Your E-mail">
 			</input>
-			<i className="fa fa-envelope" aria-hidden="true"></i>
 		</div>
+			<img className="icon" src="https://img.icons8.com/fluency-systems-regular/48/000000/filled-message.png"/>
 		
 		<div>
 			<div>Password</div>
@@ -21,9 +21,9 @@ export const Home = () =>(
 			type="text," 
 			placeholder=' Your password'>
 			</input>
-			
 		</div>
-		
+			<img className="icon" src="https://img.icons8.com/material-two-tone/24/000000/password1.png"/>
+		</div>
 		<div className="drop">
 		<div className="regis">Register</div>
 		<div className="sign">Sign In</div>
@@ -35,7 +35,6 @@ export const Home = () =>(
 			</div>
 			<div>Forgot password?</div>
 		</div>
-		</div>
 		
 			<footer className="footer mt-auto py-3 text-center">
 		<p>
@@ -44,11 +43,11 @@ export const Home = () =>(
 	</footer>
 	</div>
 	<section className="music">
-		<div className="above">
+		<div className="theapp">
 		<img className="musiknet" src="https://www.miziknet.com/assets/img/mn_logo.png?h=4cb6ba35b284d5710e8a2a2f5a850cc1"></img>
 		<p> The app for music lovers</p>
 		</div>
-		<div className="appo">
+		<div className="app">
 		<p>Get the app</p>
 		<div  className="logo">
 			<div>
