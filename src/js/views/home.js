@@ -22,7 +22,7 @@ export const Home = () =>(
 			placeholder=' Your password'>
 			</input>
 		</div>
-			<img className="icon" src="https://img.icons8.com/material-two-tone/24/000000/password1.png"/>
+			<img className="masterkey" src="https://img.icons8.com/material-two-tone/24/000000/password1.png"/>
 		</div>
 		<div className="drop">
 		<div className="regis">Register</div>

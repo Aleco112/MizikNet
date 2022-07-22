@@ -144,7 +144,24 @@ main{
     margin-top: 136px;
 
 }
-.icon{
+ .icon{
    width: 20px;
    height: 20px;
+   position: absolute;
+   top: 44%;
+   color: gray;
+   transform: translateY(-50%);
+  
+}
+ .masterkey{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+   top: 53%;
+   color: gray;
+   transform: translateY(-50%);
+   
+}
+input{
+    padding-left: 33px;
 }
