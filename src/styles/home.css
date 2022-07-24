@@ -98,6 +98,7 @@ main{
 
 .login{
     margin-top: 20px;
+    font-size: 24px
 }
 .logo{
     display: flex;
@@ -145,23 +146,42 @@ main{
 
 }
  .icon{
-   width: 20px;
+   width: 35px;
    height: 20px;
    position: absolute;
-   top: 44%;
+   top: 42.6%;
    color: gray;
    transform: translateY(-50%);
+   padding-left: 13px;
   
 }
  .masterkey{
-    width: 20px;
+    width: 35px;
     height: 20px;
     position: absolute;
-   top: 53%;
+   top: 53.2%;
    color: gray;
    transform: translateY(-50%);
+   padding-left: 15px;
    
 }
 input{
     padding-left: 33px;
+    width: 350px;
+    height: 40px;
+   
+}
+
+.vision{
+width: 35px;
+height: 20px;
+position: absolute;
+top: 53%;
+color: gray;
+padding-left: 10px;
+transform: translateY(-50%);
+left: 42%;
+
+
+
 }
