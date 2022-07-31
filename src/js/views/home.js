@@ -10,10 +10,10 @@ export const Home = () => (
 					<h1 className="login">Login your account</h1>
 					<div className="fontuser">
 						<div>E-mail</div>
-						<input className="m-2 rounded-pill fontAwesome" type="text" placeholder="Your E-mail">
+						<input className="m-2 rounded-pill fontAwesome background-img" type="text" placeholder="Your E-mail">
 						</input>
 					</div>
-					<img className="icon" src="https://img.icons8.com/fluency-systems-regular/48/000000/filled-message.png" />
+					
 
 					<div>
 						<div>Password</div>
@@ -22,10 +22,10 @@ export const Home = () => (
 							placeholder=' Your password'>
 						</input>
 					</div>
-					<img className="masterkey" src="https://img.icons8.com/material-two-tone/24/000000/password1.png" />
+					
 				</div>
 				<div className="see">
-					<img className="vision" src="https://img.icons8.com/windows/32/000000/visible--v1.png" />
+					
 				</div>
 				<div className="drop">
 					<div className="regis">Register</div>

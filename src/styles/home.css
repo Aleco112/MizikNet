@@ -92,6 +92,22 @@ main{
     margin-top: 88px;
 
 }
+.background-img{
+    background: url(https://img.icons8.com/fluency-systems-regular/24/000000/filled-message.png) no-repeat scroll 4px 4px;
+    background-image: 1.5rem;
+    
+ 
+}
+.see{
+    background:url(https://img.icons8.com/small/24/000000/visible.png) no-repeat scroll 4px 4px ;
+    background-image: 1.5rem;
+    
+
+}
+.key{
+    background: url(https://img.icons8.com/material-two-tone/24/000000/password1.png) no-repeat scroll 4px 4px;
+    background-image: 1.5rem;
+}
 
 
 
@@ -145,26 +161,10 @@ main{
     margin-top: 136px;
 
 }
- .icon{
-   width: 35px;
-   height: 20px;
-   position: absolute;
-   top: 42.6%;
-   color: gray;
-   transform: translateY(-50%);
-   padding-left: 13px;
-  
-}
- .masterkey{
-    width: 35px;
-    height: 20px;
-    position: absolute;
-   top: 53.2%;
-   color: gray;
-   transform: translateY(-50%);
-   padding-left: 15px;
+
+ 
    
-}
+
 input{
     padding-left: 33px;
     width: 350px;
@@ -172,16 +172,3 @@ input{
    
 }
 
-.vision{
-width: 35px;
-height: 20px;
-position: absolute;
-top: 53%;
-color: gray;
-padding-left: 10px;
-transform: translateY(-50%);
-left: 42%;
-
-
-
-}
