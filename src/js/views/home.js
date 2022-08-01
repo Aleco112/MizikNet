@@ -17,16 +17,14 @@ export const Home = () => (
 
 					<div>
 						<div>Password</div>
-						<input className="m-2 rounded-pill key eye"
+						<input className="m-2 rounded-pill key see"
 							type="text,"
 							placeholder=' Your password'>
 						</input>
 					</div>
 					
 				</div>
-				<div className="see">
-					
-				</div>
+				
 				<div className="drop">
 					<div className="regis">Register</div>
 					<div className="sign">Sign In</div>

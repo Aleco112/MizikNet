@@ -99,13 +99,13 @@ main{
  
 }
 .see{
-    background:url(https://img.icons8.com/small/24/000000/visible.png) no-repeat scroll 4px 4px ;
-    background-image: 1.5rem;
+    background:url(https://img.icons8.com/material-outlined/24/000000/visible--v1.png) no-repeat scroll 4px 4px ;
+    background-image: 8.5rem;
     
 
 }
 .key{
-    background: url(https://img.icons8.com/material-two-tone/24/000000/password1.png) no-repeat scroll 4px 4px;
+    background: url(https://img.icons8.com/material-two-tone/24/000000/password1.png) no-repeat scroll 4px 4px ;
     background-image: 1.5rem;
 }
 
@@ -169,6 +169,7 @@ input{
     padding-left: 33px;
     width: 350px;
     height: 40px;
-   
+    
 }
+
 
