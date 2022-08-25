@@ -99,8 +99,12 @@ main{
  
 }
 .see{
-    background:url(https://img.icons8.com/material-outlined/24/000000/visible--v1.png) no-repeat scroll 4px 4px ;
-    background-image: 8.5rem;
+   margin-left: -61px;
+   outline: none;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   
     
 }
 .key{

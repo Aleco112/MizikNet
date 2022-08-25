@@ -1,8 +1,14 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
+import { useState } from "react";
 
-export const Home = () => (
+export const Home = () => {
+	const [state , setstate]=useState(false)
+	const toggleBtn =()=> {
+		setstate(prevState =>!prevState);
+	}
+	return(
 	<>
 		<main>
 			<div className="top">
@@ -17,10 +23,15 @@ export const Home = () => (
 
 					<div>
 						<div>Password</div>
-						<input className="m-2 rounded-pill key see"
-							type="text,"
+						<input className="m-2 rounded-pill key"
+							type={state ? "text": "password"}
 							placeholder=' Your password'>
 						</input>
+						<button className="see" onClick={toggleBtn}>
+							{ state?
+<img  src="https://img.icons8.com/material-outlined/24/000000/visible--v1.png"></img> :<img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/24/000000/external-eye-devices-flatart-icons-outline-flatarticons.png"/>
+}
+						</button>
 					</div>
 					
 				</div>
@@ -68,4 +79,5 @@ export const Home = () => (
 
 
 	</>
-);
+	)
+};
