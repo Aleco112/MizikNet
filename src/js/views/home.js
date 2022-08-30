@@ -2,7 +2,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 import { useState } from "react";
-
+import IMAGES from "../../img";
 export const Home = () => {
 	const [state , setstate]=useState(false)
 	const toggleBtn =()=> {
@@ -29,8 +29,7 @@ export const Home = () => {
 						</input>
 						<button className="see" onClick={toggleBtn}>
 							{ state?
-<img  src="https://img.icons8.com/material-outlined/24/000000/visible--v1.png"></img> :<img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/24/000000/external-eye-devices-flatart-icons-outline-flatarticons.png"/>
-}
+								<img src={IMAGES.eye} alt=""/>: <img src={IMAGES.eye2} alt="" />}
 						</button>
 					</div>
 					
@@ -56,17 +55,17 @@ export const Home = () => {
 			</div>
 			<section className="music">
 				<div className="theapp">
-					<img className="musiknet" src="https://www.miziknet.com/assets/img/mn_logo.png?h=4cb6ba35b284d5710e8a2a2f5a850cc1"></img>
+					<img className="musiknet" src={IMAGES.miziknet}></img>
 					<p> The app for music lovers</p>
 				</div>
 				<div className="app">
 					<p>Get the app</p>
 					<div className="logo">
 						<div>
-							<img className="android" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2a7qwMKNWIfBw93jECC6ltygSCHcSOIQ0jw:https://data.ibtimes.sg/en/full/12247/google-play-store-8-1-73-apk.png&usqp=CAU"></img>
+							<img className="android" src={IMAGES.googlePlay}></img>
 						</div>
 						<div>
-							<img className="apple" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dbqmTtwP_rrhP1hSmblWbMXFQbQDr993_-WofMG1l0b8yALnnKiSwWvRGrXZjnOT0g:https://thumbs.dreamstime.com/b/available-app-store-140090958.jpg&usqp=CAU"></img>
+							<img className="apple" src={IMAGES.appleStore}></img>
 						</div>
 					</div>
 				</div>
