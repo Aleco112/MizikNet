@@ -10,7 +10,7 @@ export const Home = () => {
 	}
 	return(
 	<>
-		<main>
+		<main className="container-fluid">
 			<div className="top">
 				<div className="bridge">
 					<h1 className="login">Login your account</h1>
